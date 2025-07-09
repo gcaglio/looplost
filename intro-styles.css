@@ -104,3 +104,17 @@ main {
   height: 100px; /* Altezza dell’immagine (aggiustabile) */
   width: auto;
 }
+
+@media (max-width: 600px) {
+  .welcome-header {
+    flex-direction: column;
+    gap: 10px; /* puoi diminuire lo spazio verticale se vuoi */
+  }
+  .welcome-header h1 {
+    white-space: normal; /* così il testo può andare a capo */
+    font-size: 2.2rem;  /* magari riduci un po’ la dimensione per stare meglio */
+  }
+  .welcome-logo {
+    height: 80px; /* un po' più piccolo su mobile */
+  }
+}
