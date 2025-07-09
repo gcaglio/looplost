@@ -23,6 +23,7 @@
 ---
 
 ## 📁 Project Structure
+```
 looplost/
   ├── intro.php # Main entry page
   ├── intro-styles.css # style for intro page
@@ -35,6 +36,6 @@ looplost/
         ├── 30x30/
         ├── 40x40/
         └── 50x50/
-        
+```
 ## 📜 License
 This project is licensed under the MIT License. See LICENSE for details.
