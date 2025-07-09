@@ -1,0 +1,106 @@
+/* Sfondo e base */
+body {
+  margin: 0;
+  background-color: #0f2f4d;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header alto 100px */
+header {
+  height: 100px;
+  background-color: #0f2f4d;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/* Logo e titolo più grandi */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  height: 70px;
+}
+
+.title {
+  height: 50px;
+}
+
+/* Main centra il contenuto */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Box di benvenuto */
+.welcome-box {
+  max-width: 600px;
+}
+
+/* Titolo e testo */
+.welcome-box h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}
+
+.welcome-box p {
+  font-size: 1.5rem;
+  margin-bottom: 2em;
+}
+
+/* Container bottoni */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Bottoni grandi */
+.btn-container button {
+  background-color: #0055a5;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 2rem;
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  user-select: none;
+}
+
+.btn-container button:hover {
+  background-color: #0077dd;
+}
+
+.welcome-header {
+  display: flex;
+  align-items: center;  /* Allinea verticalmente */
+  justify-content: center; /* Centra orizzontalmente il gruppo */
+  gap: 20px; /* Spazio tra testo e immagine */
+  margin-bottom: 0.5em;
+}
+
+.welcome-header h1 {
+  margin: 0; /* Rimuove margine default */
+  color: white;
+  font-size: 3rem;
+  white-space: nowrap; /* Non va a capo */
+}
+
+.welcome-logo {
+  height: 100px; /* Altezza dell’immagine (aggiustabile) */
+  width: auto;
+}
