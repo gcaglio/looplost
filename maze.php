@@ -36,6 +36,7 @@ if (count($files) > 0) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>LoopLost</title>
   <link rel="stylesheet" href="styles.css" />
+  <?php include "./ganalytics.php" ?>
 </head>
 <body>
   <!-- Header -->
@@ -43,7 +44,7 @@ if (count($files) > 0) {
     <div class="header-left">
       <img src="./images/header_logo.png" alt="LoopLost" class="title">
     </div>
-    <a href="intro.html" id="homeBtn" title="Torna alla home">🏠 Home</a>
+    <a href="intro.php" id="homeBtn" title="Torna alla home">🏠 Home</a>
   </header>
 
   <!-- Toolbar -->
